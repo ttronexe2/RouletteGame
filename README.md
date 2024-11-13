@@ -31,7 +31,7 @@ Para correr este proyecto, solo necesitas un navegador moderno que soporte HTML5
    # 🎮 Cómo Jugar
 
 1. Apuesta en el número o par/impar.
-2. Haz clic en el botón **Spin** para hacer girar la ruleta.
+2. Haz clic en el botón **Bet** para hacer girar la ruleta.
 3. Espera a que la ruleta se detenga para ver si has ganado.
 
 > **Nota:** Si apuestas a un numero, directamente dejas de apostar par/impar.
