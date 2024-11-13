@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalleBet</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+    <div id="div-result">
+        <div>
+            <h2 id="text">WINNING NUMBER</h2>
+            <p id="result">0</p>
+        </div>
+        <div id="div-mybet">
+            <h2 id="my-bet">LAST BET</h2>
+            <p id="bet-amount">0</p>
+        </div>
+    </div>
+    <div id="div-chips">
+        <p id="chips">0</p>
+        <input type="number" id="add-chips" placeholder="Chips" class="input">
+        <button onclick="addChips()" id="add-chips-btn">+</button>
+    </div>
+    <div id="ruleta-container">
+        <img id="ruleta" src="img/roulette_PNG44.png" alt="Imagen de la ruleta">
+    </div>
+    <button class="myButton" id="bet-btn">BET</button>
+    <div id="div-bet">
+        <input type="number" id="bet-number" placeholder="Number" class="input">
+        <input type="number" id="bet" placeholder="Bet" class="input">
+        <select id="bet-type" class="btn">
+            <option value="parell">Parell</option>
+            <option value="imparell">Imparell</option>
+        </select>
+    </div>
+    <br>
+    <select id="test-mode" class="btn">
+        <option value="test-win">Test Win</option>
+        <option value="test-loose">Test Loose</option>
+        <option value="no-test">No Test</option>
+    </select>    
+    <script src="js/main.js"></script>
+</body>
+</html>
