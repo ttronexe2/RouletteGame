@@ -1,0 +1,45 @@
+{
+  "name": "m06-uf1-pr01_initial_code",
+  "version": "1.0.0",
+  "description": "Repositori del codi inicial de la pràctica M06-UF1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "test:e2e": "cypress install && cypress run",
+    "test:e2e:open": "cypress install && cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaSalleGraciaDAW/M06-UF1-PR01_INITIAL_CODE.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "Oriol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaSalleGraciaDAW/M06-UF1-PR01_INITIAL_CODE/issues"
+  },
+  "homepage": "https://github.com/LaSalleGraciaDAW/M06-UF1-PR01_INITIAL_CODE#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "cypress": "^13.15.0",
+    "cypress-vite": "^1.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.2",
+    "vite": "^5.3.3"
+  }
+}
